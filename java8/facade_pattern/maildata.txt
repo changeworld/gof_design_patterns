@@ -1,0 +1,4 @@
+aida@teamdev.com=Aida Ayumu
+baba@teamdev.com=Baba Baru
+chiyoda@teamdev.com=Chiyoda Chiaki
+doi@teamdev.com=Doi Dota
