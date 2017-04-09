@@ -1,12 +1,8 @@
-import java.awt.CheckboxGroup;
-import java.awt.Color;
-import java.awt.Frame;
-import java.awt.GridLayout;
-import java.awt.Label;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class LoginFrame extends Frame implements ActionListener, Mediator{
+public class LoginFrame extends Frame implements ActionListener, Mediator {
     private ColleagueButton buttonOk;
     private ColleagueButton buttonCancel;
     private ColleagueCheckbox checkGuest;

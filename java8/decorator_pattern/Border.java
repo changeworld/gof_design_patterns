@@ -1,6 +1,7 @@
-public abstract class Border extends Display {
-  protected Display display;
-  protected Border(Display display) {
-    this.display = display;
-  }
+public abstract class Border extends DecoratorDisplay {
+    protected DecoratorDisplay display;
+
+    protected Border(DecoratorDisplay display) {
+        this.display = display;
+    }
 }
