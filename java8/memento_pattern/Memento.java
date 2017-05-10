@@ -1,7 +1,8 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Memento {
+public class Memento implements Serializable {
     int money;
     ArrayList fruits;
 
@@ -19,6 +20,6 @@ public class Memento {
     }
 
     List getFruits() {
-        return (List)fruits.clone();
+        return (List) fruits.clone();
     }
 }
