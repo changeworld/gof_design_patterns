@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/template_method_pattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/visitor_pattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/observer_pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/memento_pattern" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
