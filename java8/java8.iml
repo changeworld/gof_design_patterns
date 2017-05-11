@@ -3,25 +3,26 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/mediator_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/abstract_factory_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/adapter_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/bride_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/builder_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/chain_of_responsibility_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/composite_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/decorator_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/facade_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/facade_pattern/pagemaker" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/factory_method_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iterator_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/prototype_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/singleton_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/strategy_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/template_method_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/visitor_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/observer_pattern" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/memento_pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mediator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/abstract_factory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/adapter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bride" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/builder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chain_of_responsibility" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/composite" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/decorator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/facade" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/facade/pagemaker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/factory_method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iterator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/prototype" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/singleton" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/strategy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/template_method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/visitor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/observer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/memento" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/state" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
