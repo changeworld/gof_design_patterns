@@ -86,4 +86,12 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         }
         return r;
     }
+
+    public Boolean isNoon(int hour) {
+        Boolean r = false;
+        if (12 <= hour && hour < 13) {
+            r = true;
+        }
+        return r;
+    }
 }

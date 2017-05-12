@@ -11,6 +11,8 @@ public class NightState implements State {
     public void doClock(Context context, int hour) {
         if (context.isDay(hour)) {
             context.changeState(DayState.getInstance());
+        } else if (context.isNoon(hour)) {
+            context.changeState(NoonState.getInstance());
         }
     }
 

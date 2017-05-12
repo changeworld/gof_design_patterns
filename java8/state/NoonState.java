@@ -1,7 +1,7 @@
-public class DayState implements State {
-    private static DayState singleton = new DayState();
+public class NoonState implements State {
+    private static NoonState singleton = new NoonState();
 
-    private DayState() {
+    private NoonState() {
     }
 
     public static State getInstance() {
@@ -9,26 +9,26 @@ public class DayState implements State {
     }
 
     public void doClock(Context context, int hour) {
-        if (context.isNoon(hour)) {
-            context.changeState(NoonState.getInstance());
+        if (context.isDay(hour)) {
+            context.changeState(DayState.getInstance());
         } else if (context.isNight(hour)) {
             context.changeState(NightState.getInstance());
         }
     }
 
     public void doUse(Context context) {
-        context.recordLog("Use of safe(daytime)");
+        context.recordLog("Emergency!! Use of safe(noon)");
     }
 
     public void doAlarm(Context context) {
-        context.callSecurityCenter("Emergency call(daytime)");
+        context.callSecurityCenter("Emergency call(noon)");
     }
 
     public void doPhone(Context context) {
-        context.callSecurityCenter("Normal call(daytime)");
+        context.callSecurityCenter("Normal call & record(noon)");
     }
 
     public String toString() {
-        return "[daytime]";
+        return "[noon]";
     }
 }

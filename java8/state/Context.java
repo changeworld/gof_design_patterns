@@ -10,4 +10,6 @@ public interface Context {
     public abstract Boolean isDay(int hour);
 
     public abstract Boolean isNight(int hour);
+
+    public abstract Boolean isNoon(int hour);
 }
