@@ -70,4 +70,20 @@ public class SafeFrame extends Frame implements ActionListener, Context {
     public void recordLog(String msg) {
         textScreen.append("Record ... " + msg + "\n");
     }
+
+    public Boolean isDay(int hour) {
+        Boolean r = false;
+        if (9 <= hour && hour < 17) {
+            r = true;
+        }
+        return r;
+    }
+
+    public Boolean isNight(int hour) {
+        Boolean r = false;
+        if (hour < 9 || 17 <= hour) {
+            r = true;
+        }
+        return r;
+    }
 }

@@ -6,4 +6,8 @@ public interface Context {
     public abstract void callSecurityCenter(String msg);
 
     public abstract void recordLog(String msg);
+
+    public abstract Boolean isDay(int hour);
+
+    public abstract Boolean isNight(int hour);
 }

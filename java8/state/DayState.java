@@ -9,7 +9,7 @@ public class DayState implements State {
     }
 
     public void doClock(Context context, int hour) {
-        if (hour < 9 || 17 <= hour) {
+        if (context.isNight(hour)) {
             context.changeState(NightState.getInstance());
         }
     }
