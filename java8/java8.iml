@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/memento" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/state" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/flyweight" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/proxy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
