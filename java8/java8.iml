@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/flyweight" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proxy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/command" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/interpreter" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
